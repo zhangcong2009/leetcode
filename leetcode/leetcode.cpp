@@ -1,7 +1,7 @@
 // leetcode.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
+//#include "stdafx.h"
 #include <iostream>
 #include "string.h"
 
@@ -16,7 +16,7 @@ using namespace std;
 #include "stdio.h"
 
 using iter_t=vector<int>;
-
+class Node_t;
 class SplitBranch
 {
 public:
@@ -79,7 +79,7 @@ public:
 };
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
 
 	Solution s;
